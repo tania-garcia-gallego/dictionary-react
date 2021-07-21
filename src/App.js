@@ -1,6 +1,7 @@
 
 import './App.css';
 import DictionarySearch from "./DictionarySearch.js";
+import Footer from "./Footer.js";
 
 //https://www.canva.com/colors/color-palettes/mountain-haze/
 
@@ -11,6 +12,7 @@ function App() {
        React Dictionary
       </header>
       <DictionarySearch />
+      <Footer />
     </div>
   );
 }
