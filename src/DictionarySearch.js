@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./DictionarySearch.css";
+import Definition from "./Definition.js";
 
 
 export default function DictionarySearch() {
     let [word , setWord] = useState("");
+    let [definition, setDefinition] = useState(null);
 
     function HandleResponse(response){
-        console.log(response.data[0]);
+    
+        setDefinition(response.data[0]);
     }
     
 
@@ -27,7 +30,8 @@ export default function DictionarySearch() {
         <form onSubmit={Search}>
             <input type="search" placeholder="Look up a word..." onChange={HandleWord}></input>
             <button type="submit">Search</button>
-
+          
         </form>
+          <Definition definition={definition}/>
     </div>)
 }
