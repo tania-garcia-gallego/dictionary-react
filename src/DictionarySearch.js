@@ -27,11 +27,13 @@ export default function DictionarySearch() {
 
 
     return (<div>
+        
         <form onSubmit={Search}>
             <input type="search" placeholder="Look up a word..." onChange={HandleWord}></input>
             <button type="submit">Search</button>
           
         </form>
+        
           <Definition definition={definition}/>
     </div>)
 }

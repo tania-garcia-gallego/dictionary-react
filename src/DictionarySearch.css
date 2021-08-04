@@ -9,3 +9,11 @@ input {
   margin: 20px;
   padding-right: 40px;
 }
+
+section {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgb(56 94 114 / 30%);
+  padding: 20px;
+  margin: 20px;
+}
