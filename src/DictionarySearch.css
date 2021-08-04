@@ -3,11 +3,18 @@ button {
   margin: 20px;
   background-color: #738fa7;
   border-color: #738fa7;
+  border-radius: 5px;
+  box-shadow: 0 8px 20px rgb(56 94 114 / 30%);
+  border-style: solid;
 }
 
 input {
   margin: 20px;
   padding-right: 40px;
+  border-radius: 5px;
+  box-shadow: 0 8px 20px rgb(56 94 114 / 30%);
+  border-color: #3d5970;
+  border-style: solid;
 }
 
 section {
@@ -15,5 +22,5 @@ section {
   border-radius: 10px;
   box-shadow: 0 8px 20px rgb(56 94 114 / 30%);
   padding: 20px;
-  margin: 20px;
+  margin-top: 20px;
 }
