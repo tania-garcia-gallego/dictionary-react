@@ -11,7 +11,7 @@ export default function Photos(props){
             {props.photos.map(function(photo, index) {
                 return (
                  <div className="col">
-                     <img src={photo.src.small} />
+                     <img src={photo.src.small} alt="img"/>
                      </div>);
             }
             )}
